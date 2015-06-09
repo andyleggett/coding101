@@ -1,12 +1,5 @@
-$(function() {
-
-    var console = $('#console');
-
-    ////////////////////////////////////
+ var console = $('#console');
 
 
-    ///////////////////////////////////
 
-    console.text('');
-
-});
+ console.text('');

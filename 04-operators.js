@@ -1,28 +1,42 @@
-$(function() {
+var console = $('#console');
 
-    var console = $('#console');
+//Number maths operators
+var aNumber = 10;
 
-    ////////////////////////////////////
+var added = aNumber + 20;
+var subtracted = aNumber - 5;
+var multiplied = aNumber * 100;
+var divided = aNumber / 10;
 
-    var aNumber = 10;
+var bNumber = 50;
 
-    var added = aNumber + 20;
-    var subtracted = aNumber - 5;
-    var multiplied = aNumber * 100;
-    var divided = aNumber / 10;
+var twoAdded = aNumber + bNumber;
 
-    var aString = 'This is a string';
-    var bString = 'added to another';
+aNumber = aNumber + 10;
+aNumber = aNumber * bNumber;
 
-    var concatenated = aString + bString;
+//short-hand assignments
+aNumber += 10;
+aNumber *= bNumber;
 
-    var aBoolean = true;
-    var bBoolean = false;
+//Number comparison operators
+var lessThan = aNumber < bNumber;
+var greaterThan = aNumber > bNumber;
 
-    var anded = aBoolean && bBoolean;
-    var ored = aBoolean || bBoolean;
+// >= <= === !==
 
-    ///////////////////////////////////
+//String operator
+var aString = 'This is a string';
+var bString = 'added to another';
 
-    console.text(aNumber);
-});
+var concatenated = aString + bString;
+
+//Boolean operators
+var aBoolean = true;
+var bBoolean = false;
+
+var anded = aBoolean && bBoolean;
+var ored = aBoolean || bBoolean;
+var noted = !aBoolean;
+
+console.text(aNumber);

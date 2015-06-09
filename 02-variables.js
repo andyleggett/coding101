@@ -1,20 +1,13 @@
-$(function() {
+var console = $('#console');
 
-    var console = $('#console');
+var aNumber = 0; //integer
+var anotherNumber = 0.0; //float
 
-    ////////////////////////////////////
+var aString = 'This is a string';
 
-    var aNumber = 0; //integer
-    var anotherNumber = 0.0; //float
+var aBoolean = true;
 
-    var aString = 'This is a string';
+var aNumberWithNoInitalValue;
+aNumberWithNoInitialValue = 12;
 
-    var aBoolean = true;
-
-    var aNumberWithNoInitalValue;
-    aNumberWithNoInitialValue = 12;
-
-    ///////////////////////////////////
-
-    console.text(aNumber);
-});
+console.text(aNumber);
