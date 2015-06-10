@@ -8,7 +8,6 @@ var second = anArray[1];
 
 var crazy = anArray[-1];
 
-
 anArray[0] = 4;
 anArray[3] = 12;
 

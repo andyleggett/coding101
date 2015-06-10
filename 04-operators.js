@@ -7,36 +7,37 @@ var added = aNumber + 20;
 var subtracted = aNumber - 5;
 var multiplied = aNumber * 100;
 var divided = aNumber / 10;
+var twoCalcs = aNumber * 5 - 4;
 
-var bNumber = 50;
+//var bNumber = 50;
 
-var twoAdded = aNumber + bNumber;
+//var twoAdded = aNumber + bNumber;
 
-aNumber = aNumber + 10;
-aNumber = aNumber * bNumber;
+//aNumber = aNumber + 10;
+//aNumber = aNumber * bNumber;
 
 //short-hand assignments
-aNumber += 10;
-aNumber *= bNumber;
+//aNumber += 10;
+//aNumber *= bNumber;
 
 //Number comparison operators
-var lessThan = aNumber < bNumber;
-var greaterThan = aNumber > bNumber;
+//var lessThan = aNumber < bNumber;
+//var greaterThan = aNumber > bNumber;
 
 // >= <= === !==
 
 //String operator
-var aString = 'This is a string';
-var bString = 'added to another';
+//var aString = 'This is a string';
+//var bString = 'added to another';
 
-var concatenated = aString + bString;
+//var concatenated = aString + bString;
 
 //Boolean operators
-var aBoolean = true;
-var bBoolean = false;
+//var aBoolean = true;
+//var bBoolean = false;
 
-var anded = aBoolean && bBoolean;
-var ored = aBoolean || bBoolean;
-var noted = !aBoolean;
+//var anded = aBoolean && bBoolean;
+//var ored = aBoolean || bBoolean;
+//var noted = !aBoolean;
 
-console.text(aNumber);
+//console.text(aNumber);
