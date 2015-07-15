@@ -13,36 +13,36 @@ console.text(counter);
 
 ///////////////////////////////////////////////////////////
 
-//var calcLoop;
-//var results = [];
+var calcLoop;
+var results = [];
 
-//for (calcLoop = 0; calcLoop < 10; calcLoop += 1){
-//	results[calcLoop] = 2 * calcLoop + 1;
-//}
+for (calcLoop = 0; calcLoop < 10; calcLoop += 1){
+	results[calcLoop] = 2 * calcLoop + 1;
+}
 
-//console.text(results);
-
-///////////////////////////////////////////////////////////
-
-//var tablesLoop;
-//var tablesText = 'Multiples of 5 are ... ';
-
-//for (tablesLoop = 5; tablesLoop <= 50; tablesLoop += 5){
-//	tablesText = tablesText + tablesLoop + ' ';
-//}
-
-//console.text(tablesText);
+console.text(results);
 
 ///////////////////////////////////////////////////////////
 
-//var reverseLoop;
-//var countDownText = 'Countdown ... ';
+var tablesLoop;
+var tablesText = 'Multiples of 5 are ... ';
 
-//for (reverseLoop = 10; reverseLoop > 0; reverseLoop -= 1){
-//	countDownText = countdownText + reverseLoop + ' ';
-//}
+for (tablesLoop = 5; tablesLoop <= 50; tablesLoop += 5){
+	tablesText = tablesText + tablesLoop + ' ';
+}
 
-//console.text(countDownText);
+console.text(tablesText);
+
+///////////////////////////////////////////////////////////
+
+var reverseLoop;
+var countDownText = 'Countdown ... ';
+
+for (reverseLoop = 10; reverseLoop > 0; reverseLoop -= 1){
+	countDownText = countdownText + reverseLoop + ' ';
+}
+
+console.text(countDownText);
 
 ///////////////////////////////////////////////////////////
 

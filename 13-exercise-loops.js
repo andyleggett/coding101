@@ -1,0 +1,17 @@
+var console = $('#console');
+
+//Write a for, while or do loop to produce an array of:
+
+//1. the numbers from 1 to 100
+
+//2. the even numbers from 1 to 100
+
+//3. the five times tables up to 60
+
+//4. numbers from 1 to 100 in reverse order
+
+
+//Try to write these in a different form for your first choice.
+
+
+console.text('');

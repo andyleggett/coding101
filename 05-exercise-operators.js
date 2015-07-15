@@ -3,10 +3,7 @@ var console = $('#console');
 //Given a username in the variable below, create a new variable that holds a hello message for the user.
 var userName;
 
-
-
-
-//Given the value of the variable bankBalance below, assign the following to new variables:
+//Given the value of the variable bankBalance below, assign the following:
 var bankBalance = 100.0;
 
 //1. double the balance
@@ -15,6 +12,7 @@ var bankBalance = 100.0;
 
 //3. the balance with interest added
 
+//4. a message that displays the balance and the interest in brackets
 
 
 //Given the boolean variables below, create a new variable that says whether a user is logged in.  
@@ -25,6 +23,13 @@ var userFoundInDatabase;
 
 //Given the variable below, create a variable that says whether the user is too tall (over 2 metres).
 var userHeight;
+
+
+//Given the variables above and below, create a variable that says whether the user is too tall (over 2 metres) or too heavy (over 120kg).
+var userWeight;
+
+
+
 
 
 
