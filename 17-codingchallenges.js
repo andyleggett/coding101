@@ -29,4 +29,3 @@
 //List all the anagrams of a word.
 
 //Work out the the three types of average (mean, median and mode) for a list of numbers
-
