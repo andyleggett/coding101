@@ -23,3 +23,5 @@
 //Count the minutes between two times in 24 hour clock
 
 //A bubble sort (https://en.wikipedia.org/wiki/Bubble_sort)
+
+//Print out the full name of the day of the week for any date

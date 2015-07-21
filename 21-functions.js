@@ -33,7 +33,7 @@ function sayHelloToAllPlayers(playerlist){
   return helloList;
 }
 
-console.text(sayHelloToAllPlayers(['Amanada', 'Barbara', 'Chloe', 'Daisy']);
+console.text(sayHelloToAllPlayers(['Amanada', 'Barbara', 'Chloe', 'Daisy']));
 
 ///////////////////////////////////////////////
 

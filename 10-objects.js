@@ -24,7 +24,7 @@ patient.BMI = 35;
 var buttonSettings = {
 	message: 'Like this',
 	width: 120,
-	height: 30
+	height: 30,
 	color: '#32ad33'
 };
 
@@ -41,7 +41,7 @@ var numberOfLikes = likeInfo.likeCount;
 
 var idOfFirstUserToClick = likeInfo[0].userId;
 
-var lastClickTime = buttonObject.clickInfo[2].time;
+var lastClickTime = buttonSettings.clickInfo[2].time;
 
 
 console.text('');

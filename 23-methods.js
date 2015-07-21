@@ -15,8 +15,6 @@ var car = {
 	}
 };
 
-
-
 var Car = function(speed){
 	this.speed = speed;
 	this.fuel = 100;
@@ -25,7 +23,7 @@ var Car = function(speed){
 		this.speed += increase;
 	};
 
-	this.decreaseSpeed: function(decrease){
+	this.decreaseSpeed = function(decrease){
 		this.speed -= decrease;
 
 		if (this.speed < 0){
@@ -39,7 +37,6 @@ var car2 = new Car(200);
 
 car1.increaseSpeed(50);
 car2.decreaseSpeed(300);
-
 
 console.text(car1.speed);
 console.text(car2.speed);

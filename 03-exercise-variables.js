@@ -13,6 +13,14 @@ var console = $('#console');
 
 //5. a username that hasn't been given yet.
 
+//Given the value of the variable bankBalance below, assign the following to new variables:
+var bankBalance = 100.0;
+  
+//1. double the balance
+ 
+//2. the interest - 10% of the balance
+  
+//3. the balance with interest added
 
 //Replace the content of the brackets with the name of any variable you want to test
 console.text('');
