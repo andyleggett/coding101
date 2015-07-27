@@ -1,0 +1,13 @@
+//Write if statements to test and print out messages:
+
+//1. if a number variable is larger than another
+
+//2. if a number variable is between two values
+
+//3. if a boolean variable is true or false
+
+//4. if a number variable is 0, 1, or more than 1
+
+//5. if a string variable is has a value or not (be careful here)
+
+console.log();
